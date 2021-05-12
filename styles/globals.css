@@ -12,7 +12,8 @@ body {
   font-size: 1.4rem;
   font-family: "Newsreader", serif;
   font-weight: 600;
-  
+  background-image: url("../public/images/bg.jpg") !important;
+  color: #fff !important;
 }
 
 a {
