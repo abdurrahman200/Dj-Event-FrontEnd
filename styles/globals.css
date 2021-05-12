@@ -11,7 +11,7 @@ html {
 body {
   font-size: 1.4rem;
   font-family: "Newsreader", serif;
-  font-weight: 600;
+  font-weight: 400;
   background-image: url("../public/images/bg.jpg") !important;
   color: #fff !important;
 }
@@ -49,9 +49,8 @@ h1 {
   background: rgb(190, 223, 238);
   color: #000 !important;
   border: 0;
-  border-radius: 5px;
-  padding: 5px 15px;
-  margin: 0 20px;
+  border-radius: 0px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 
