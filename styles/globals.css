@@ -31,16 +31,17 @@ h1 {
 
 .btn {
   display: inline-block;
-  background: rgb(186, 193, 194);
+  background: rgb(190, 223, 238);
   color: #000;
-  padding: 10px 20px;
+  padding: 1rem 2.5rem;
   cursor: pointer;
   border: 0;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .btn:hover {
-  opacity: 0.9;
+  background-color: rgb(233, 220, 220);
+  color: #000;
 }
 
 .btn-secondary {
@@ -50,7 +51,7 @@ h1 {
   color: #000 !important;
   border: 0;
   border-radius: 0px;
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   cursor: pointer;
 }
 
@@ -65,5 +66,5 @@ h1 {
 }
 
 .btn-icon svg {
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
