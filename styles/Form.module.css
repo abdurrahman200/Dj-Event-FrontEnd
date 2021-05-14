@@ -1,0 +1,55 @@
+.update {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.form {
+  background-color: #fff;
+  padding: 2rem;
+}
+.form label {
+  display: block;
+}
+
+.form input {
+  width: 100%;
+  height: 4rem;
+  padding: 5px;
+  font-family: "Rajdhani", sans-serif !important;
+  font-weight: 600 !important;
+  border: 0.18rem #000 solid;
+}
+
+.form textarea {
+  width: 100%;
+  height: 15rem;
+  padding: 1rem;
+  font-family: "Rajdhani", sans-serif !important;
+  font-weight: 600 !important;
+  border: 0.18rem #000 solid;
+}
+
+.form input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 20px 0 30px;
+}
+
+.form .file {
+  border: 1px #ccc solid;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

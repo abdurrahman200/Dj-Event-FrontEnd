@@ -14,7 +14,7 @@ export default function HomePage({ events }) {
         <EventItem key={evt.id} evt={evt} />
       ))}
       {events.length > 0 && (
-        <Link href="/events" >
+        <Link href="/events">
           <a className="btn-secondary"> View All Events</a>
         </Link>
       )}
@@ -23,11 +23,11 @@ export default function HomePage({ events }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${API_URL}/api/events`);
+  const res = await fetch(`${API_URL}/events?_sort=date:ASC&_limit=3`);
   const events = await res.json();
 
   return {
-    props: { events: events.slice(0, 5) },
+    props: { events },
     revalidate: 1,
   };
 }

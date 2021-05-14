@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: #fff;
   color: #333;
   height: 60px;
   padding: 0 30px;
@@ -10,12 +10,12 @@
 }
 
 .header a {
-  color: #fff;
+  color: #333;
   margin-right: 20px;
 }
 
 .header a:hover {
-  color: rgb(124, 114, 114);
+  color: #000;
 }
 .header ul {
   display: flex;
@@ -25,13 +25,13 @@
 }
 
 .logo {
-  color: rgb(216, 212, 212);
+  color: rgb(0, 238, 255);
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .logo a {
-  color: rgb(253, 253, 253);
+  color: rgb(0, 204, 255);
 }
 
 @media (max-width: 768px) {
